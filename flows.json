@@ -1,0 +1,54 @@
+[
+    {
+        "id": "d7039835b36f81c5",
+        "type": "mqtt in",
+        "z": "b341163d541dfae0",
+        "name": "",
+        "topic": "arthur",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "7698450921e86e6c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 370,
+        "y": 240,
+        "wires": [
+            [
+                "ce403c63dcb1d87b"
+            ]
+        ]
+    },
+    {
+        "id": "7698450921e86e6c",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "mqtt.adrianoruseler.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "5",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
